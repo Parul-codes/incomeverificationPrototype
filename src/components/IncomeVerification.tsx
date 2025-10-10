@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Smartphone, MapPin, Upload } from 'lucide-react';
+import { FileText } from 'lucide-react';
 
 interface IncomeVerificationProps {
   hasBankAccount: boolean;
@@ -139,7 +139,7 @@ const IncomeVerification: React.FC<IncomeVerificationProps> = ({ hasBankAccount,
 
       {!selectedOption ? (
         <div className="space-y-4">
-          <button
+          {/* <button
             onClick={() => setSelectedOption('upi')}
             className="w-full p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-colors text-left"
           >
@@ -154,9 +154,9 @@ const IncomeVerification: React.FC<IncomeVerificationProps> = ({ hasBankAccount,
                 <p className="text-sm text-gray-600">Upload UPI/QR settlement reports</p>
               </div>
             </div>
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             onClick={() => setSelectedOption('field')}
             className="w-full p-4 border-2 border-gray-200 rounded-lg hover:border-green-500 hover:bg-green-50 transition-colors text-left"
           >
@@ -171,7 +171,7 @@ const IncomeVerification: React.FC<IncomeVerificationProps> = ({ hasBankAccount,
                 <p className="text-sm text-gray-600">Apply for Field Verification</p>
               </div>
             </div>
-          </button>
+          </button> */}
 
           <button
             onClick={() => setSelectedOption('exit')}

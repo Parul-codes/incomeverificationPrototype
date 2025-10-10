@@ -56,7 +56,7 @@ const BankAccountStatus: React.FC<BankAccountStatusProps> = ({ onSelect }) => {
               <h3 className="text-lg font-semibold text-gray-800">
                 नहीं, मेरा बैंक खाता नहीं है
               </h3>
-              <p className="text-gray-600">No, I don't have a bank account</p>
+              <p className="text-gray-600">No, I don't have a bank account. Exit</p>
               <p className="text-sm text-orange-600 mt-1">
                 वैकल्पिक सत्यापन विकल्प / Alternative verification options
               </p>
